@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Кастомні чекбокси</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!-- основний контейнер -->
+  <div class="wrapper">
+    <!-- ліва частина контейнера -->
+    <div class="cover">
+      <img src="./images/podcast-cover.png" alt="compressed.fm">
+    </div>
+
+    <!-- права частина контейнера -->
+    <div class="content">
+      <!-- заголовок правої частини -->
+      <h1>LISTEN TO ALL THE COMPRESSED.FM EPISODES</h1>
+      <!-- список елементів з чекбоксами / псевдо-вебформа -->
+      <ul>
+        <!-- один елемент з чекбоксом -->
+        <li>
+          <!-- підпис поля input пов'язаний з чекбоксом за його id -->
+          <label for="episode-1">
+            <!-- поле input пов'язане з його підписом за його атрибутом for -->
+            <input type="checkbox" name="episode-1" id="episode-1">
+            <span>1 || Trailer</span>
+          </label>
+        </li>
+
+        <li>
+          <label for="episode-2">
+            <input type="checkbox" name="episode-2" id="episode-2">
+            <span>2 || John Quick Origin Story</span>
+          </label>
+        </li>
+
+        <li>
+          <label for="episode-3">
+            <input type="checkbox" name="episode-3" id="episode-3">
+            <span>2 || Amy Origin Story</span>
+          </label>
+        </li>
+
+        <li>
+          <label for="episode-4">
+            <input type="checkbox" name="episode-4" id="episode-4">
+            <span>4 || Tech Behind the Podcast</span>
+          </label>
+        </li>
+
+        <li>
+          <label for="episode-5">
+            <input type="checkbox" name="episode-5" id="episode-5">
+            <span>5 || Tech Behind Teach.me</span>
+          </label>
+        </li>
+
+        <li>
+          <label for="episode-6">
+            <input type="checkbox" name="episode-6" id="episode-6">
+            <span>6 || Freelancing (Part 1)</span>
+          </label>
+        </li>
+
+
+
+      </ul>
+    </div>
+  </div>
+
+</body>
+
+</html>
